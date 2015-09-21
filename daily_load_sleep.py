@@ -5,11 +5,11 @@ import json
 from datetime import datetime, timedelta
 from keen.client import KeenClient
 from sleep import transform
-import params
+from params import keen
 
-KEEN_PROJECT_ID = keen.project_id
-KEEN_WRITE_KEY = keen.write_key
-KEEN_READ_KEY = keen.read_key
+KEEN_PROJECT_ID = keen['project_id']
+KEEN_WRITE_KEY = keen['write_key']
+KEEN_READ_KEY = keen['read_key']
 
 
 def main():
