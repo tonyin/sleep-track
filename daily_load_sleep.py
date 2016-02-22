@@ -12,7 +12,7 @@ KEEN_WRITE_KEY = keen['write_key']
 KEEN_READ_KEY = keen['read_key']
 
 TIME_DELTA = 5
-TIME_FRAME = 'this_5_days'
+TIME_FRAME = 'this_6_days'
 
 
 def main():

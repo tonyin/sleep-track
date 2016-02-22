@@ -1,0 +1,6 @@
+Padding==0.4
+argparse==1.2.1
+keen==0.3.18
+pycrypto==2.6.1
+requests==2.8.1
+wsgiref==0.1.2
